@@ -18,11 +18,11 @@ class MilkCocoa
 	 * @param	id			アプリID
 	 * @param	callBack	成功時のコールバック関数
 	 */
-	public function new( id:String, callback:Void->Void ) 
+	public function new( id:String, ?callback:Void->Void ) 
 	{
 		var f = function( ) {
 			this.connected = true;
-			callback( );
+			if( callback != null ) callback( );
 		};
 		var url = 'https://' + id + '.mlkcocoa.com';
 

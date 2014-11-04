@@ -74,7 +74,7 @@ class DataStore
 	 */
 	public function off( event:String ):Void
 	{
-		this.ds.off( event )
+		this.ds.off( event );
 	}
 
 	/**
