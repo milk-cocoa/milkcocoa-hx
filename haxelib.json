@@ -1,0 +1,16 @@
+{
+  "name": "milkcocoa-hx",
+  "url" :
+      "https://github.com/milk-cocoa/milkcocoa-hx",
+  "license": "MIT",
+  "classPath": "src/",
+  "tags": ["web", "js"],
+  "description":
+      "This is milkcocoa client library!",
+  "version": "0.0.1",
+  "releasenote":
+      "init release",
+  "contributors": ["nobkz"],
+  "dependencies": {
+  }
+}
