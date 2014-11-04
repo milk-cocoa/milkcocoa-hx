@@ -24,7 +24,7 @@ class MilkCocoa
 			this.connected = true;
 			if( callback != null ) callback( );
 		};
-		var url = 'https://' + id + '.mlkcocoa.com';
+		var url = 'https://' + id + '.mlkcca.com';
 
 		this.connected = false;
 		this.mc = untyped __js__("new MilkCocoa( url, f )");
